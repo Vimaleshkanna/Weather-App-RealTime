@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(57, 51, 51);
+}
+
+.Top {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.Top i img {
+  width: 105px;
+}
+
+.Top .degree h2 {
+  color: white;
+  font-size: 4rem;
+}
+
+.Top .degreeType {
+  color: white;
+  padding-top: 13px;
+  font-size: 30px;
+}
+
+.Top .details {
+  color: white;
+  padding-top: 13px;
+}
+
+.middle {
+  color: white;
+}
+
+.lower {
+  color: white;
+}
+
+.listItem {
+  border-radius: 20px;
+  transition: all 2s;
+}
+
+.listItem:hover {
+  border: 1px solid grey;
+}
+
+.anchor {
+  font-size: 25px;
+  color: white;
+  transition: all 1s;
+}
+.anchor:hover {
+  color: yellow;
+}
